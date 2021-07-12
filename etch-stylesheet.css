@@ -2,15 +2,43 @@ html, body {
     height: 100%;
     margin: 0;
 }
+.header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-family: Comic Sans MS, cursive;
+}
+.big-container {
+    display: inline-block;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
 .container {
     display: grid;
     height: 500px;
     width: 500px;
-    margin: auto;
     border: 1px solid black;
     align-items: stretch;
+    float: right;
+    margin-right: 20%;
+    margin-top: 1%;
 }
-.square {
-    flex: 1;
-    border: .5px solid blue;
+form {
+    position: relative;
+    top: 20%;
+    left: 36%;
+}
+#input {
+    height: 20px;
+    width: 70px;
+}
+#clear {
+    margin-top:20px;
+    margin-left: 20px;
 }
